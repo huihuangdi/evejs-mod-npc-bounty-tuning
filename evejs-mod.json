@@ -1,0 +1,43 @@
+{
+  "author": {
+    "id": "au-mul9t76ozxf9",
+    "keyId": "050c08195199",
+    "name": "辉煌帝"
+  },
+  "category": "经济",
+  "changelog": "第一次发布",
+  "conflicts": [],
+  "delisted": false,
+  "description": "NPC 赏金结算周期与全局赔率可配置（mods/npc-bounty-tuning/config.json），改完重启服务端生效",
+  "displayName": "NPC 赏金结算调校",
+  "downloadUrls": [
+    {
+      "mirror": "github",
+      "priority": 1,
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.0.0/npc-bounty-tuning-1.0.0.zip"
+    }
+  ],
+  "evejsVersions": [
+    "261028.x"
+  ],
+  "featured": false,
+  "highlights": [
+    "模组 id：`npc-bounty-tuning` · 版本 `1.0.0` · 类别：经济",
+    "适用服务端：EveJS `261028.x`（Node.js v24.21.0，CommonJS，无新增依赖）",
+    "交付状态：`loader.js` 为**启用态**，默认配置 `5 分钟 / x2` ；"
+  ],
+  "history": [],
+  "id": "npc-bounty-tuning",
+  "publishedAt": "2026-11-08",
+  "readme": [
+    "把 EveJS 服务端「击杀 NPC 的赏金每 **20 分钟**结算一次」改造成**周期可配置**，并额外提供一个\n**全局赏金倍率**。配置就是模组目录下的 `config.json`，**改完重启服务端生效**。",
+    "想调就改数字，想关就 `enabled: false`。",
+    "---"
+  ],
+  "repo": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning",
+  "requiresRestart": true,
+  "sha256": "73acb7ac2802402a3694ee985b40b9ce44f2c108e751d703fbdb096c7cdcf055",
+  "sizeBytes": 23294,
+  "tags": [],
+  "version": "1.0.0"
+}
