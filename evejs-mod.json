@@ -8,17 +8,17 @@
   "changelog": "",
   "conflicts": [],
   "delisted": false,
-  "description": "NPC 赏金结算周期与全局赔率可配置（mods/npc-bounty-tuning/config.json），改完重启服务端生效",
+  "description": "把服务端「击杀 NPC 后每 20 分钟结算一次赏金」改成可配置周期，并额外提供全局赏金倍率。1.2.0 起配置改存 _local/mods/npc-bounty-tuning/config/config.json（不随模组包发布，旧位置首次启动自动迁移）。改完重启服务端生效。",
   "displayName": "NPC 赏金结算调校",
   "downloadUrls": [
     {
       "mirror": "github",
       "priority": 1,
-      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.1.2/npc-bounty-tuning-1.1.2.zip"
+      "url": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning/releases/download/v1.2.2/npc-bounty-tuning-1.2.2.zip"
     }
   ],
   "evejsVersions": [
-    "261115.x"
+    "261125.x"
   ],
   "featured": false,
   "highlights": [
@@ -28,16 +28,16 @@
   ],
   "history": [],
   "id": "npc-bounty-tuning",
-  "publishedAt": "2026-11-20",
+  "publishedAt": "2026-11-27",
   "readme": [
-    "把 EveJS 服务端「击杀 NPC 的赏金每 **20 分钟**结算一次」改造成**周期可配置**，并额外提供一个\n**全局赏金倍率**。配置就是模组目录下的 `config.json`，**改完重启服务端生效**。",
+    "把 EveJS 服务端「击杀 NPC 的赏金每 **20 分钟**结算一次」改造成**周期可配置**，并额外提供一个\n**全局赏金倍率**。配置就是 `_local/mods/npc-bounty-tuning/config/config.json`（用户数据，不随模组包发布；旧版放在模组目录根的 `config.json`，首次启动自动迁移），**改完重启服务端生效**。",
     "想调就改数字，想关就 `enabled: false`。",
     "---"
   ],
   "repo": "https://github.com/huihuangdi/evejs-mod-npc-bounty-tuning",
   "requiresRestart": true,
-  "sha256": "2be87eee76fd101594ccd3a0f66f4fa3f3ba07f14a11be7b0109db2e165e0473",
-  "sizeBytes": 23949,
+  "sha256": "fb4cb090efc0788a8562da5ea433ef6e970b15fa79ce6f71f2bdcb6b161634b7",
+  "sizeBytes": 92584,
   "tags": [],
-  "version": "1.1.2"
+  "version": "1.2.2"
 }
